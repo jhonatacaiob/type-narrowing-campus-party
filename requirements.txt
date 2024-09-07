@@ -1,0 +1,5 @@
+beartype==0.18.5
+isort==5.13.2
+markdown-it-py==3.0.0
+mypy==1.11.2
+rich==13.8.0

@@ -1,0 +1,4 @@
+{
+    "python.defaultInterpreterPath": "/home/jhow/anotacoes/campus_party/.venv/bin/python",
+    "mypy-type-checker.interpreter": ["/home/jhow/anotacoes/campus_party/.venv/bin/python"]
+}

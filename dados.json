@@ -1,0 +1,39 @@
+{
+  "personagens": [
+    {
+      "nome": "Leonardo",
+      "arma": "Espadas",
+      "cor": "#0000FF"
+    },
+    {
+      "nome": "Michelangelo",
+      "arma": "Nunchakus",
+      "cor": "#FFA500"
+    },
+    {
+      "nome": "Donatello",
+      "arma": "Bastão Bo",
+      "cor": "#800080"
+    },
+    {
+      "nome": "Raphael",
+      "arma": "Sai",
+      "cor": "#FF0000"
+    },
+    {
+      "nome": "Splinter",
+      "habilidade": "Mestre de artes marciais",
+      "cor": "#FFC0CB"
+    },
+    {
+      "nome": "Casey Jones",
+      "habilidade": "Combate com equipamentos esportivos",
+      "cor": "#000000"
+    },
+    {
+      "nome": "April O'Neil",
+      "habilidade": "Repórter investigativa",
+      "cor": "#FFFF00"
+    }
+  ]
+}
