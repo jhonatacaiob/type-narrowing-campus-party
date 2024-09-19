@@ -90,7 +90,7 @@ def func1(val: list[object]):
     if is_str_list(val):
         reveal_type(val) # list[object]
 
-        print(' '.join(val)) # Error: invalid type
+        print(' '.join(val)) # Error: incompatible type
 ```
 
 Para esses casos específicos foi implementado o `TypeGuard` no módulo `typing`
@@ -108,7 +108,7 @@ def func1(val: list[object]):
     if is_str_list(val):
         reveal_type(val) # list[str]
 
-        print(' '.join(val)) # Error: invalid type
+        print(' '.join(val)) # ok
 ```
 
 > Foi notado que sem impor um estreitamento estrito, seria possível quebrar a segurança de tipo. Uma função de proteção de tipo mal escrita poderia produzir resultados inseguros ou até mesmo sem sentido. Por exemplo:
